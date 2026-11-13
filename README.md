@@ -1,5 +1,7 @@
 # **Version 1.0.25**
 
+*~~Bản 1.0.25 được viết lại mới hoàn toàn để sửa rất nhiều lỗi nghiêm trọng trước đó!~~*
+
 # I. MANUAL PAIR
 
 App mở cổng của chính mình (`local_port`) là **5001**, listen ở địa chỉ: **192.168.4.1**, cổng **5000**
@@ -57,7 +59,6 @@ App mở cổng của chính mình (`local_port`) là **5001**, listen ở đị
 ---
 
 # II. DATA
-
 
 App cần kết nối đến mqtt broker với các thông số ở trên.
 App cần subscribe topic `"mqttpub"` đã pair trước đó, ví dụ: `/SFDSmart/device/1039/data/81286cd5`
@@ -410,4 +411,4 @@ Lấy id thiết bị
 
 # VII. NOTE
 
-Thời gian còi kêu nếu có cảnh báo là từ **8:00:00** đến **20:00:00** Để tránh làm phiền người dùng vào ban đêm
+Thời gian còi kêu nếu có cảnh báo là từ **8:00:00** đến **20:00:00** để tránh làm phiền người dùng vào ban đêm
