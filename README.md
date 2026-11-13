@@ -289,7 +289,7 @@ Thiết bị gửi lại bản tin phản hồi `ReportProcessOTA`
     "status": 2 // Trạng thái cập nhật
     // status - statusCode
     // 2  - scheduled: Đã nhận cấu hình từ bản tin CmdSetOTA
-    // 4  - updating: Đang cập nhận
+    // 4  - updating: Đang cập nhật
     // 10 - updated: Đã cập nhật thành công
     // 12 - failed: Đã có lỗi xảy ra
   },
@@ -372,7 +372,7 @@ Với danh sách thiết bị được phép cập nhật, có thể có thiết
     "status": 2 // Trạng thái cập nhật
     // status - statusCode
     // 2  - scheduled: Đã nhận cấu hình từ bản tin CmdSetOTA
-    // 4  - updating: Đang cập nhận
+    // 4  - updating: Đang cập nhật
     // 10 - updated: Đã cập nhật thành công
     // 12 - failed: Đã có lỗi xảy ra
   },
