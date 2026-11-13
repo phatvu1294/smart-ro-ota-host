@@ -346,11 +346,11 @@ Với danh sách thiết bị được phép cập nhật, có thể có thiết
   "data":
   {
     "otaID": 1,
+    "scheduleID": 1,
     "forceUpdate": 0,
     "firmwareUrl": "https://github.com/phatvu1294/smart-ro-ota-host/raw/refs/heads/main/firmware_v1.0.25.bin",
     "firmwareVersion": "1.0.25",
     "firmwareChecksum": "",
-    "scheduleID": 1,
     "startTime": 1794547620,
     "endTime": 1794589140,
     "startTimeOfDay": 0,
