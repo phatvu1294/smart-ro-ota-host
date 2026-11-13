@@ -323,7 +323,7 @@ Với danh sách thiết bị được phép cập nhật, có thể có thiết
     "otaID": 1, // ID của OTA (Id do backend quản lý)
     "scheduleID": 1, // ID của lịch (Id do backend quản lý)
     "forceUpdate": 0, // Cập nhật không bắt buộc theo lịch lên sẵn
-    "firmwareUrl": "https://github.com/phatstupid94/smart-ro-ota/raw/refs/heads/main/firmware_v1.0.25.bin", // Đường dẫn trỏ đến file bin
+    "firmwareUrl": "https://github.com/phatvu1294/smart-ro-ota-host/raw/refs/heads/main/firmware_v1.0.25.bin", // Đường dẫn trỏ đến file bin
     "firmwareVersion": "1.0.25", // Phiên bản update phải lớn hơn hoặc bằng phiên bản cũ
     "firmwareChecksum": "", // Không cần thiết với thiết bị, nếu làm app, có thể check để cho phép nút cập nhật bật hay không
     "startTime": 1794502800, // [2026/11/13, 00:00:00], thời gian bắt đầu, unix timestamp, tính bằng giây [Dùng cho UI chọn ngày]
@@ -345,7 +345,7 @@ Với danh sách thiết bị được phép cập nhật, có thể có thiết
   {
     "otaID": 1,
     "forceUpdate": 0,
-    "firmwareUrl": "https://github.com/phatstupid94/smart-ro-ota/raw/refs/heads/main/firmware_v1.0.25.bin",
+    "firmwareUrl": "https://github.com/phatvu1294/smart-ro-ota-host/raw/refs/heads/main/firmware_v1.0.25.bin",
     "firmwareVersion": "1.0.25",
     "firmwareChecksum": "",
     "scheduleID": 1,
