@@ -249,7 +249,7 @@ Cập nhật ngay lập tức nên dùng để update thủ công cho từng thi
     "scheduleID": 1, // ID của lịch (Id do backend quản lý)
     "forceUpdate": 1, // Cập nhật bắt buộc ngay lập tức
     "firmwareUrl": "https://github.com/phatvu1294/smart-ro-ota-host/raw/refs/heads/main/firmware_v1.0.25.bin", // Đường dẫn trỏ đến file bin
-    "firmwareVersion": "1.0.25", // Phiên bản update phải lớn hơn hoặc bằng phiên bản cũ
+    "firmwareVersion": "1.0.25", // Phiên bản update phải lớn hơn hoặc bằng phiên bản cũ (điều kiện bằng chỉ để test)
     "firmwareChecksum": "" // Không cần thiết với thiết bị, nếu làm app, có thể check để cho phép nút cập nhật bật hay không
   }
 }
@@ -265,6 +265,7 @@ Cập nhật ngay lập tức nên dùng để update thủ công cho từng thi
   "data":
   {
     "otaID": 1,
+    "scheduleID": 1,
     "forceUpdate": 1,
     "firmwareUrl": "https://github.com/phatvu1294/smart-ro-ota-host/raw/refs/heads/main/firmware_v1.0.25.bin",
     "firmwareVersion": "1.0.25",
@@ -324,7 +325,7 @@ Với danh sách thiết bị được phép cập nhật, có thể có thiết
     "scheduleID": 1, // ID của lịch (Id do backend quản lý)
     "forceUpdate": 0, // Cập nhật không bắt buộc theo lịch lên sẵn
     "firmwareUrl": "https://github.com/phatvu1294/smart-ro-ota-host/raw/refs/heads/main/firmware_v1.0.25.bin", // Đường dẫn trỏ đến file bin
-    "firmwareVersion": "1.0.25", // Phiên bản update phải lớn hơn hoặc bằng phiên bản cũ
+    "firmwareVersion": "1.0.25", // Phiên bản update phải lớn hơn hoặc bằng phiên bản cũ (điều kiện bằng chỉ để test)
     "firmwareChecksum": "", // Không cần thiết với thiết bị, nếu làm app, có thể check để cho phép nút cập nhật bật hay không
     "startTime": 1794502800, // [2026/11/13, 00:00:00], thời gian bắt đầu, unix timestamp, tính bằng giây [Dùng cho UI chọn ngày]
     "endTime": 1794502800, // [2026/11/13, 00:00:00] thời gian kết thúc, unix timestamp, tính bằng giây [Dùng cho UI chọn ngày]
