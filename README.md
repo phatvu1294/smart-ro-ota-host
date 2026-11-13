@@ -303,7 +303,7 @@ Cập nhật thiết bị theo lịch đặt sẵn.
 
 **Điều kiện cập nhật:** `(giờ thiết bị >= (startTime + startTimeOfDay)) && (giờ thiết bị <= (endTime + endTimeOfDay))`
 
-Có thể đặt `startTimeOfDay = 0` và `endTimeOfDay = 0`, lúc này chỉ cần đặt `startTime` và `endTime` là đc, vì chúng là unix timestamp nên có chứa cả giờ.
+Có thể đặt `startTimeOfDay = 0` và `endTimeOfDay = 0`, lúc này chỉ cần đặt `startTime` và `endTime` là đc, vì chúng là unix timestamp nên có chứa cả giờ (không khuyến nghị).
 
 Với danh sách thiết bị được phép cập nhật, có thể có thiết bị bị tắt, cập nhật thất bại hoặc không phản hồi, lúc này backend cần chủ động gửi lại bản tin mqtt vào danh sách thất bại mỗi ngày trong thời gian đó.
 
