@@ -97,7 +97,7 @@ Thiết bị chỉ phản hồi khi người dùng tiến hành lấy nước (t
   "addr": "08F9E06E6AD0", // Địa chỉ MAC của thiết bị
   "data":
   {
-    "mute": 0 // 1: ngắt còi báo thiết bị, 0: vẫn để còi kêu trên thiết bị
+    "mute": 0 // 1: ngắt tiếng còi cảnh báo, 0: vẫn để còi cảnh báo trên thiết bị
   }
 }
 ```
