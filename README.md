@@ -176,7 +176,7 @@ Gửi lệnh sau để lấy thông tin nhà phân phối
 }
 ```
 
-### APP -> DEVICE (Phản hồi)
+### DEVICE -> APP (Phản hồi)
 
 ```json
 {
@@ -250,6 +250,7 @@ Cập nhật ngay lập tức nên dùng để update thủ công cho từng thi
     "firmwareUrl": "https://github.com/phatvu1294/smart-ro-ota-host/raw/refs/heads/main/firmware_v1.0.25.bin", // Đường dẫn trỏ đến file bin
     "firmwareVersion": "1.0.25", // Phiên bản update phải lớn hơn hoặc bằng phiên bản cũ (điều kiện bằng chỉ để test)
     "firmwareChecksum": "" // Không cần thiết với thiết bị, nếu làm app, có thể check để cho phép nút cập nhật bật hay không
+    // Các trường khác của [lên lịch] vẫn có thể gửi bình thường vào đây nhưng sẽ không được sử dụng
   }
 }
 ```
