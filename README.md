@@ -409,4 +409,4 @@ Lấy id thiết bị
 
 # VII. NOTE
 
-Thời gian còi kêu nó có cảnh báo là từ **8:00:00** đến **20:00:00** Để tránh làm phiền người dùng vào ban đêm
+Thời gian còi kêu nếu có cảnh báo là từ **8:00:00** đến **20:00:00** Để tránh làm phiền người dùng vào ban đêm
