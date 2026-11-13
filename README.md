@@ -404,3 +404,9 @@ Lấy id thiết bị
   "addr": "08F9E06E6AD0" // Địa chỉ MAC của thiết bị
 }
 ```
+
+---
+
+# VII. NOTE
+
+Thời gian còi kêu nó có cảnh báo là từ **8:00:00** đến **20:00:00** Để tránh làm phiền người dùng vào ban đêm
