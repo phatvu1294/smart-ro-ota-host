@@ -73,7 +73,7 @@ Thiết bị chỉ phản hồi khi người dùng tiến hành lấy nước (t
   "data":
   {
     "state": 1, // Đang hoạt động
-    "mute": 0, // Không quan tâm
+    "mute": 0, // Trạng thái còi báo trên thiết bị
     "flowRate": 1.12, // Lưu lượng
     "tds": 1, // Giá trị TDS
     "filter_amount": 1, // Số lượng lõi lọc
