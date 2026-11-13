@@ -228,7 +228,8 @@ Khi có cảnh báo hết lõi lọc, thiết bị tự động gửi bản tin 
 # V. OTA
 
 Thiết bị cần kết nối Wifi có truy cập internet để thực hiện việc này
-Backend là nơi lưu trữ tệp firmware và quản lý phiên bản, danh sách địa chỉ MAC hỗ trợ cập nhật.
+
+Backend là nơi lưu trữ tệp firmware và quản lý phiên bản, danh sách địa chỉ MAC hỗ trợ cập nhật. Thiết bị chỉ cập nhật hoặc lên lịch cập nhật khi có bản tin gửi đến. Do đó nên gửi lại mỗi ngày 1 lần với các thiết bị cập nhật thất bại.
 
 ## 1. Cập nhật thiết bị ngay lập tức
 
