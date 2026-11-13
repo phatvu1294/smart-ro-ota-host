@@ -162,7 +162,7 @@ Gửi lệnh sau để lấy thông tin nhà phân phối
 {
   "name": "CmdGetDistributor", // Lệnh lấy thông tin NPP
   "dpCode": "GMH2071", // Mã sản phẩm
-  "addr": "08F9E06E6AD0", // Phải đúng địa chỉ MAC
+  "addr": "08F9E06E6AD0" // Phải đúng địa chỉ MAC
 }
 ```
 
@@ -172,7 +172,7 @@ Gửi lệnh sau để lấy thông tin nhà phân phối
 {
   "name": "CmdGetDistributor",
   "dpCode": "GMH2071",
-  "addr": "08F9E06E6AD0",
+  "addr": "08F9E06E6AD0"
 }
 ```
 
